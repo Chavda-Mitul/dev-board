@@ -8,6 +8,7 @@ function filterData(search,seatchResult){
     });
     return result;
 }
+// search for the card 
 function Search(){
     let [searchResult, setSearchResult] = useState(keyBoardData);
     let [search, setSearch] = useState("");

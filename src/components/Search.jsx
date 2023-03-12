@@ -2,6 +2,7 @@ import { useState } from "react";
 import keyBoardData from "./keyboardData";
 import Card from './Card';
 function filterData(search,seatchResult){
+    //random comment line
     const result = seatchResult.filter((item) => {
         return item.name.toLowerCase().includes(search.toLowerCase());
     });

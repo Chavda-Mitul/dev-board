@@ -34,6 +34,13 @@ const KeybordData = [
         name: 'Dell',
         img: 'https://picsum.photos/900/600',
     },
+    {
+        id: 8,
+        name: 'HP',
+
+        img: 'https://picsum.photos/200/200',
+    },
+    
 
 ];
 

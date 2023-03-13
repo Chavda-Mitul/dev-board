@@ -2,19 +2,19 @@ import './App.css';
 import Header  from './components/Header';
 import Card from './components/Card';
 import Search from './components/Search';
-import keyboardData from './data/keyboardData';
+// import keyboardData from './data/keyboardData';
 function App() {
 
   return (
     <>
       <Header/>
-      <div className="container">
+      {/* <div className="container">
        {keyboardData.map((data) => {
          return <Card name={data.name} img={data.img} />;
         })}
-      </div>
+      </div> */}
       <Search/>
-      </>
+      </> 
   );
 }
 

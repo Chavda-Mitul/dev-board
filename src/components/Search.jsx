@@ -1,6 +1,8 @@
 import { useState } from "react";
 import keyBoardData from "./keyboardData";
 import Card from './Card';
+import '../styles/Card.css';
+
 function filterData(search,seatchResult){
     //random comment line
     const result = seatchResult.filter((item) => {
@@ -14,7 +16,7 @@ function Search(){
     let [search, setSearch] = useState("");
     return (
         <>
-            <input type="text" placeholder="Search..." className="search-container" value={search} onChange={(e) => setSearch(e.target.value)}/>
+            <input type="text" style={{margin : "10px"}} placeholder="Search..." className="search-container" value={search} onChange={(e) => setSearch(e.target.value)}/>
             <button className="serch-bar" onClick={()=> {
                const data = filterData(search,searchResult); 
                setSearchResult(data);

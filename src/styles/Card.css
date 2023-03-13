@@ -1,19 +1,24 @@
 .card{
     border:  1px solid black;
     width: 200px;
-    height: 300px;
+    height: 250px;
     margin: 40px;
     padding: 10px; 
 }
-.card > h3{
+.card > h3, p{
     text-align: center;
 }
 .card > img{
-    width: 90%;
-    height: 80%;
+    width: 100%;
+    height: 37%;
 }
 
 .container{
     display: flex;
     flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
